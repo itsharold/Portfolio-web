@@ -97,23 +97,19 @@ p{
 	max-width: 1020px;
 }
 .g-row{
-	height: 450px;
 	width: 100%;
+	display: inline-block;
 }
 .p-container{
 	box-sizing:border-box;
 	padding-right: 60px;
-}
-#project1{
-	background-color: pink;
-	float: left;
 	width: 50%;
 	display: inline-block;
-}
-#project2{
 	float: left;
-	width: 50%;
-	display:inline-block;
+	display: inline-block;
+	background-color: hotpink;
 }
+
+
 
 
