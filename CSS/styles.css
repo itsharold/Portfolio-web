@@ -98,18 +98,29 @@ p{
 }
 .g-row{
 	width: 100%;
-	display: inline-block;
+	clear: both;
 }
 .p-container{
 	box-sizing:border-box;
-	padding-right: 60px;
-	width: 50%;
+	padding: 15px;
+	height: 450px;
+	width: 47%;
 	display: inline-block;
 	float: left;
-	display: inline-block;
-	background-color: hotpink;
+	margin: 15px;
 }
 
-
+#project1{
+	background-color: beige;
+}
+#project2{
+	background-color: pink;
+}
+#project3{
+	background-color: pink;
+}
+#project4{
+	background-color: beige;
+}
 
 
