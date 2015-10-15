@@ -167,8 +167,10 @@ main{
   	margin: 0;
 }
 #sidebar .socialmedia{
-	margin:100px auto;
-	width: 100% 
+	margin-left:25%;
+	margin-top: 100px;
+	width: 100%;
+
 }
 #sidebar .socialmedia a{
 	display: block;
