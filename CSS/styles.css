@@ -139,6 +139,9 @@ main{
 	z-index: 150;
 	/*box-shadow: -3px 0px 5px #666;*/	
 }
+#sidebar nav{
+	clear: both;
+}
 #sidebar h3{
 	color: #afdefa;
 	font-size: 1.9em;
