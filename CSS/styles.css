@@ -57,7 +57,11 @@
 body{
 	margin:0;
 	font-family: 'Maven Pro', sans-serif;
+<<<<<<< Updated upstream
 	font-size:16px;
+=======
+	font-size: 16px;
+>>>>>>> Stashed changes
 }
 h1{
 	font-size: 26px;
@@ -228,7 +232,18 @@ main{
 #project3{ width:30%; }
 #project4{ width:70%; }
 
-#project1 .inner-wrapper{ background-color: beige; }
-#project2 .inner-wrapper{ background-color: pink; }
-#project3 .inner-wrapper{ background-color: pink; }
-#project4 .inner-wrapper{ background-color: beige; }
+#project1 .inner-wrapper{ 
+	background-image: url(../images/p2_1.jpg);
+	background-size: cover; 
+}
+#project2 .inner-wrapper{ 
+	background-image: url(../images/p1_1.jpg);
+	background-size: cover;
+}
+#project3 .inner-wrapper{ 
+	background-color: pink; 
+}
+#project4 .inner-wrapper{ 
+	background-image: url(../images/identity_mockup.jpg);
+	background-size: cover; 
+}
