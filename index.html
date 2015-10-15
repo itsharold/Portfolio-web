@@ -12,27 +12,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700,900' rel='stylesheet' type='text/css'>
+    
     <script type="text/javascript" src="JS/main.js"></script>
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <div id="nav-wrap">
-                <div class="nav-inner"></div>
-                    <h1>HAROLD HENCKELL</h1>
-                    <div class="menu">
-                        <a href="#" onclick="OpenSB(); return false;">
-                        <hr>
-                        <hr>
-                        <hr>
-                        </a>
-                    </div>
+        <div id="nav-wrap">
+            <div class="nav-inner"></div>
+                <h1>HAROLD HENCKELL</h1>
+                <div class="menu">
+                    <a href="#" onclick="OpenSB(); return false;">
+                    <hr>
+                    <hr>
+                    <hr>
+                    </a>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -69,12 +68,20 @@
         
     </footer>
     <div id="sidebar" class="sb-openx">
-        <a href="#" onclick="CloseSB(); return false;"><img src=""/>close</a>
-        <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
+        <nav>
+            <a href="#" onclick="CloseSB(); return false;"><img src=""/><span class="icon-cross"></span></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Work</a></a></li>
+                <li><a href="#">About</a></a></li>
+                <li><a href="#">Contact</a></a></li>
+            </ul>
+        </nav>
+        <div class="socialmedia">
+            <a href="#"><span class="icon-facebook"></span></a>
+            <a href="#"><span class="icon-linkedin"></span></a>
+            <a href="#"><span class="icon-pinterest"></span></a>
+        </div>
     </div>
 </body>
 </html>
