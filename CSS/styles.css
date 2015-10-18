@@ -57,14 +57,11 @@
 body{
 	margin:0;
 	font-family: 'Maven Pro', sans-serif;
-<<<<<<< Updated upstream
 	font-size:16px;
-=======
-	font-size: 16px;
->>>>>>> Stashed changes
 }
 h1{
-	font-size: 26px;
+	font-size: 24px;
+	font-weight: bold;
 }
 p{
 	font-size: 12px;
@@ -73,6 +70,7 @@ p{
 }
 a{
 	text-decoration: none;
+	color: #3B4E6A;
 }
 main{
 	margin-top: 100px;
@@ -80,7 +78,7 @@ main{
 #nav-wrap{
 	background-color: #fff;
 	width: 100%;
-	height: 75px;
+	height: 65px;
 	position: fixed;
 	top: 0px;
 	transition: transform 0.5s ease-out;
@@ -126,6 +124,10 @@ main{
 .hero p{
 	font-size: 22px;
 	text-align: center;
+}
+.hero i{
+	font-weight: bold;
+	font-size: 28px;
 }
 
 #sidebar{
@@ -225,6 +227,9 @@ main{
 	display: inline-block;
 	float: left;
 }
+.p-container a{
+	color:#fff;
+}
 .p-container .inner-wrapper{
 	width:100%;
 	height:100%;
@@ -232,21 +237,128 @@ main{
 	box-sizing:border-box;	
 }
 
+/*<Title and category effect>*/
+.p-container .inner-wrapper .p-title{
+	margin: 20px 0 10px 0;
+    padding: 20px 0 0 0;
+    font-size: 2em;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+}
+.p-container .inner-wrapper .p-title:before{
+	content: '';
+    position: absolute;
+    background: #fff;
+    width: 250px;
+    height: 6px;
+    top: 0px;
+    -webkit-transition: margin-top 0.2s; /* top or translate does not seem to work in Firefox */
+    -moz-transition: margin-top 0.2s;
+    transition: margin-top 0.2s;
+}
+.p-container .inner-wrapper .p-category{
+	text-transform: uppercase;
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    -webkit-transform: translateY(10px);
+    -moz-transform: -moz-translateY(10px);
+    -ms-transform: -ms-translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    -webkit-transition: transform 0.3s, opacity 0.2s;
+}
+.p-container a:hover .p-category{
+	opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.p-container > a:hover .p-title{
+	-webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    color: #fff;
+}
+.p-container > a:hover .p-title:before{
+	background: #fff;
+    margin-top: 80px;
+}/* </Title and category effect>*/
+
 #project3{ width:30%; }
 #project4{ width:70%; }
 
 #project1 .inner-wrapper{ 
-	background-image: url(../images/p2_1.jpg);
-	background-size: cover; 
+	/*background-image: url(../images/p2_1.jpg);
+	background-size: cover;*/
+	background-color: #FBB829; 
 }
 #project2 .inner-wrapper{ 
-	background-image: url(../images/p1_1.jpg);
-	background-size: cover;
+	/*background-image: url(../images/p1_1.jpg);
+	background-size: cover;*/
+	background-color: #FBB829;
 }
 #project3 .inner-wrapper{ 
-	background-color: pink; 
+	background-color: #E4DBD4; 
+}
+#project3 p{
+	font-size: 16px;
+	line-height: 24px;
 }
 #project4 .inner-wrapper{ 
 	background-image: url(../images/identity_mockup.jpg);
 	background-size: cover; 
+}
+
+.bttn{
+	border: 3px solid white;
+	font-family: inherit;
+	font-size: inherit;
+	color: #fff;
+	background: none;
+	cursor: pointer;
+	padding: 15px 40px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	z-index: 2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	box-sizing: border-box;
+}
+
+.bttn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #fff;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.bttn:hover,
+.bttn:active {
+	color: #3B4E6A;
+}
+
+.bttn:hover:after,
+.bttn:active:after {
+	height: 100%;
 }
