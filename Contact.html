@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - Harold Henckell</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700,900' rel='stylesheet' type='text/css'>
+    
+    <script src="JS/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+</head>
+<body>
+	<header>
+        <div id="nav-wrap">
+            <div class="nav-inner"></div>
+                <a href="index.html"><h1>HAROLD HENCKELL</h1></a>
+                <div class="menu">
+                    <a href="#" onclick="OpenSB(); return false;">
+                    <hr>
+                    <hr>
+                    <hr>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+	<main>
+    	<form method="post" class="w-container contacto">
+        <fieldset>
+            <div class="w-container"><label id="nameform">Name:</label><input type="text" class="nombre" name="name" id="nombrecorreo" /></div>
+            <div class="w-container"><label id="emailform">Email:</label><input type="text" class="email" name="email" id="correoe"/></div>
+            <div class="w-container"><label id="messageform">Message:</label><textarea cols="30" rows="20" class="mensaje" name="message" ></textarea></div>
+            <div class="ultimo">
+                <button class="bttn">Submit</button>
+            </div>
+        </fieldset>
+        </form>
+    </main>
+    	
+	<footer>
+		
+	</footer>
+    <div id="sidebar" class="sb-openx">
+        <a class="sb-close" href="#" onclick="CloseSB(); return false;"><span class="icon-cross"></span></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Work</a></a></li>
+                <li><a href="about.html">About</a></a></li>
+                <li><a href="contact.html">Contact</a></a></li>
+            </ul>
+        </nav>
+        <div class="socialmedia">
+            <a href="#"><span class="icon-facebook"></span></a>
+            <a href="#"><span class="icon-linkedin"></span></a>
+            <a href="#"><span class="icon-pinterest"></span></a>
+        </div>
+    </div>
+</body>
+</html>

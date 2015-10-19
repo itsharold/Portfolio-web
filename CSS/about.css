@@ -6,16 +6,6 @@ main{
 }
 .p-hero img{
 	width: 100vw;
-	position: relative;
-}
-.p-hero h2{
-	font-size: 3em;
-	color: #fff;
-	position: absolute;
-	top: 70%;
-	padding-left: 90px;
-	max-width: 1020px;
-
 }
 .p-content{
 	margin: 60px auto;
@@ -24,24 +14,13 @@ main{
 	box-sizing: border-box;
 }
 .p-content .left{
-	width: 70%;
+	width: 30%;
 	display: inline-block;
 	padding-right: 60px;
 	box-sizing: border-box;
 }
 .p-content .right{
-	width: 30%;
+	width: 70%;
 	display: inline-block;
 	float: right;
-}
-.p-content ul{
-	list-style: none;
-}
-.screenshots{
-	max-width: 1020px;
-	margin: 0 auto;
-}
-.screenshots img{
-	height: 650px;
-	width: 100%;
 }
