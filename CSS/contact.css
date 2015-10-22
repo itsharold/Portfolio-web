@@ -1,91 +1,35 @@
-main{
-    background-color: #E4DBD4;
-    margin-top: 60px !important;
-
-}
-form.contacto {
-    margin: 25px auto;
-    width: 880px;
-    height:100vh;
-}
-form.contacto fieldset {
-    /*background: white;
-    border: 1px solid #E1E1E1;
-    box-shadow: 0 0 10px #DADADA;
-    -webkit-box-shadow: 0 0 10px #DADADA;
-    -moz-box-shadow: 0 0 10px #DADADA;*/
-    padding-top: 60px;
-    border-style: none;
-}
-form.contacto fieldset > div {
-    clear: both;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-form.contacto fieldset div label {
-    display: block;
-    float: left;
-    margin-right: 15px;
-    margin-top: 5px;
-    text-align: right;
-    text-transform: uppercase;
-    width: 84px;
-}
-
-#nameform, #emailform, #messageform{
-	color:#3B4E6A;
-}
 
 
-form.contacto input[type="text"], form.contacto textarea {
-    background: #fff;
-    border: 3px solid #3B4E6A;
-    color: #626262;
-    display: block;
-    float: left;
-    padding: 8px;
-    resize: none;
-    width: 265px;
-    -webkit-transition: all 0.1s linear;
-    -moz-transition: all 0.1s linear;
+.c-content h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #FBB829;
 }
-
-form.contacto input[type="text"]{
-	width:650px;
+.c-content h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #6D6D6D;
+}
+.c-content p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 60px;
+}
+.c-content{
+    max-width: 1020px;
+    margin: 60px auto;
+}
+.personalinfo p{
     font-size: 1em;
+    margin-top: 0;
+    line-height: 1.4em;
 }
-form.contacto textarea.mensaje{
-    width: 730px;
-    font-size: 1em;
+.personalinfo h3{
+    margin: 0;
 }
-
-#nombrecorreo{
-	width:300px;
-}
-
-#correoe{
-	width:300px;
-}
-
-
-form.contacto input[type="text"]:focus, form.contacto textarea:focus {
-	outline: none;
-	padding-right: 0px;
-}
-form.contacto .ultimo{
-    margin-bottom: 0;
-    position: relative
-}
-form.contacto button {
-    float: right;
-    position: relative;
-    border-color: #3B4E6A;
-    color: #626262;
-}
-form.contacto button:hover{
-    /*background: #6A6A6A;*/
-    -webkit-transition: all 500ms ease;
-  	-o-transition: all 500ms ease;
-  	transition: all 500ms ease;
-  	text-shadow: rgba(0, 0, 0, 0.24) 0px 1px 0px;
+.socialmedia span{
+    font-size: 2rem;
+    padding-right: 15px;
 }

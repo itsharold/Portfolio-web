@@ -11,7 +11,7 @@ function CloseSB (){
 
 var LastPointer = 0;
 window.onscroll = function(){
-    if(LastPointer<window.pageYOffset){
+    if(LastPointer<window.pageYOffset && LastPointer>=0){ 
     	document.getElementById("nav-wrap").className="nav-closed";
     }else{
     	document.getElementById("nav-wrap").className="";
@@ -21,7 +21,7 @@ window.onscroll = function(){
 }
 
 
-
+/*Transition on load page*/
 $(document).ready(function() {
 
 $('body').css('display', 'none');
@@ -47,5 +47,20 @@ window.location = newLocation;
 }
 
 });
+/*!Transition on load page*/
+
+
+/*Slider*/
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    loop:true,
+    nav:true,
+    navText: ["<span class='arrows-arrow-left'></span>","<span class='arrows-arrow-right'></span>"]
+  });
+});
+
+/*!slider*/
 
 

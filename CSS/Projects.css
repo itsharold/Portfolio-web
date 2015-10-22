@@ -1,21 +1,58 @@
+@font-face {
+	font-family: 'icomoon-arrows';
+	src:url('../fonts/icomoon-arrows.eot?8pt58x');
+	src:url('../fonts/icomoon-arrows.eot?8pt58x#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon-arrows.ttf?8pt58x') format('truetype'),
+		url('../fonts/icomoon-arrows.woff?8pt58x') format('woff'),
+		url('../fonts/icomoon-arrows.svg?8pt58x#icomoon-arrows') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="arrows-"], [class*=" arrows-"] {
+	font-family: 'icomoon-arrows';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.arrows-arrow-right:before {
+	content: "\e600";
+}
+.arrows-arrow-left:before {
+	content: "\e601";
+}
+
 main{
 	margin-top: -60px !important;
 }
+.p-content p{
+	font-size: 1.15rem;
+}
 .p-hero{
 	width:100%;
+	position: relative;
 }
 .p-hero img{
 	width: 100vw;
 	position: relative;
 }
 .p-hero h2{
-	font-size: 3em;
+	font-size: 3.5em;
 	color: #fff;
 	position: absolute;
 	top: 70%;
-	padding-left: 90px;
+	left: 50%;
+	transform: translateX(-50%);
 	max-width: 1020px;
-
+	width: 100%;
 }
 .p-content{
 	margin: 60px auto;
@@ -37,11 +74,37 @@ main{
 .p-content ul{
 	list-style: none;
 }
+.screenshots-wrapper{
+	background-color: #E4DBD4;
+	width: 100vw;
+	height: auto;
+	float: left;
+	clear: both;
+	margin: 0;
+	margin-bottom: 60px;
+}
 .screenshots{
 	max-width: 1020px;
-	margin: 0 auto;
+	margin: 60px auto;
+	position: relative;
 }
 .screenshots img{
-	height: 650px;
-	width: 100%;
+	height: auto;
+	width: 80% !important;
+	margin: 0 auto;
+}
+.owl-next .arrows-arrow-right{
+	font-size: 40px;
+	color: #3B4E6A;
+	position: absolute;
+	top: 45%;
+	right: -10%;
+
+}
+.owl-prev .arrows-arrow-left{
+	font-size: 40px;
+	color: #3B4E6A;
+	position: absolute;
+	top: 45%;
+	left: -10%;
 }
