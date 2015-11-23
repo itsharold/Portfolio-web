@@ -24,3 +24,15 @@ main{
 	display: inline-block;
 	float: right;
 }
+.cv h3{
+	margin: 10px 0;
+}
+.cv p{
+	margin-top: 0px;
+}
+.left h3:nth-child(1){
+	margin-top: 21.060px;
+}
+.right h3:nth-child(1){
+	margin-top: 21.060px;
+}

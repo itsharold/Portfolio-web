@@ -29,7 +29,19 @@
 .personalinfo h3{
     margin: 0;
 }
-.socialmedia span{
+#c-socialmedia span{
     font-size: 2rem;
     padding-right: 15px;
+}
+#c-socialmedia a:hover .icon-facebook{
+    color: #3B5998;
+    transition: all 0.3s ease;
+}
+#c-socialmedia a:hover .icon-linkedin{
+    color: #007bb5;
+    transition: all 0.3s ease;
+}
+#c-socialmedia a:hover .icon-pinterest{
+    color: #cb2027;
+    transition: all 0.3s ease;
 }

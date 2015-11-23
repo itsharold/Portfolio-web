@@ -152,12 +152,14 @@ main{
 	color: #fff;
 	font-size: 1em;
 	letter-spacing: 1px;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-weight: 400;
 	border-bottom: 1px solid #57769B;
 	padding: 1em;
 	-webkit-transition: all 0.25s;
           transition: all 0.25s;
+}
+#sidebar ul > li:first-child a{
+	border-top: 1px solid #57769B;
 }
 #sidebar ul a:hover{
 	background: #57769B;
@@ -165,7 +167,7 @@ main{
           transition: all 0.1s;
 }
 #sidebar ul a:active{
-	background: #E4DBD4;
+	background: #84B3EB;
 	color: #3B4E6A;
 }
 #sidebar ul{
@@ -186,6 +188,11 @@ main{
 	font-weight: 300;
 	float: left;
 }
+#sidebar .socialmedia a:hover{
+	color: #57769B;
+	transition: all 0.3s ease;
+}
+
 #sidebar .socialmedia .icon-facebook{
 	letter-spacing: 20px;
 	font-size: 28px;
@@ -383,7 +390,7 @@ footer{
 }
 .info{
 	height: 60px;
-	background-color: #F8F1E9;
+	background-color: #F2F2F2;
 	color: grey;
 	width: 100vw;
 	position: absolute;
