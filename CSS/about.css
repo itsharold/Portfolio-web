@@ -6,6 +6,19 @@ main{
 }
 .p-hero img{
 	width: 100vw;
+	position: relative;
+}
+.p-hero h2{
+	font-size: 4em;
+	color: #fff;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 1020px;
+	width: 100%;
+	text-shadow: 1px 1px 1px #d4d4d4;
+	line-height: 64px;
 }
 .p-content{
 	margin: 60px auto;
@@ -35,4 +48,11 @@ main{
 }
 .right h3:nth-child(1){
 	margin-top: 21.060px;
+}
+.cv hr{
+	border-style: solid;
+	border-width: 0.5px;
+	margin: 6px 0;
+	width:100%;
+	color: #d9d9d9;
 }
