@@ -36,6 +36,9 @@ main{
 	font-size: 1.15rem;
 }
 .p-content h2{
+	margin-top: 60px;
+}
+.p-content h2:first-child{
 	margin-top: 0;
 }
 .p-content ul{
@@ -78,6 +81,11 @@ main{
 	display: inline-block;
 	float: right;
 }
+.p-content.last{
+	margin-bottom: 0;
+}
+
+/*Content in half*/
 .p-content.half{
 	height: 100%;
 }
@@ -87,6 +95,8 @@ main{
 .p-content.half .right{
 	width: 50%;
 }
+/*!Content in half*/
+
 .p-content ul{
 	list-style: none;
 }
@@ -99,6 +109,25 @@ main{
 	margin: 0;
 	margin-bottom: 60px;
 }
+.full-wrapper{
+	background: rgba(228,219,212,0);
+	background: -moz-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,219,212,0)), color-stop(45%, rgba(228,219,212,0)), color-stop(100%, rgba(228,219,212,1)));
+	background: -webkit-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
+	background: -o-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
+	background: -ms-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
+	background: linear-gradient(to bottom, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
+	width: 100vw;
+	height: auto;
+	float: left;
+	clear: both;
+	margin: 0;
+	margin-bottom: 60px;
+}
+.full-wrapper .p-content{
+	margin-bottom: 0;
+}
+
 .screenshots{
 	max-width: 1020px;
 	margin: 60px auto;
@@ -124,18 +153,40 @@ main{
 	top: 45%;
 	left: -10%;
 }
-.pen{
+.o-left{
 	position: absolute;
-	left: -15%;
+	left: -20%;
+}
+.o-right{
+	position: absolute;
+	right: -20%;
 }
 .image-l{
 	width: 600px;
 }
-#colorscheme{
-	height: 382px;
-}/*!Dirty*/
 
-.center img{
+.center{
+	padding: 0 90px;
+}
+.full-img img{
 	max-width: 100%;
 	max-height: 100%;
+}
+.full-img{
+	width: 100%;
+}
+
+.img-centered{
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+}
+#colorscheme{
+	background-image: url(../Images/ColorScheme.png);
+	height: 382px;
+}
+#typography{
+	background-image: url(../Images/typo.png);
+	height: 167px;
 }

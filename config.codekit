@@ -162,6 +162,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/StillHumans_devices_mockup.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Images\/StillHumans_devices_mockup.png",
+		"outputAbbreviatedPath": "\/Images\/StillHumans_devices_mockup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/StillHumans_mockup-web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -169,17 +180,6 @@
 		"initialSize": 188704,
 		"inputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.jpg",
 		"outputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Images\/StillHumans_mockup-web.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.04137e+06,
-		"inputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.png",
-		"outputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -195,13 +195,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Typography.png": {
+	"\/Images\/typo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 46827,
-		"inputAbbreviatedPath": "\/Images\/Typography.png",
-		"outputAbbreviatedPath": "\/Images\/Typography.png",
+		"initialSize": 18631,
+		"inputAbbreviatedPath": "\/Images\/typo.png",
+		"outputAbbreviatedPath": "\/Images\/typo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -308,6 +308,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/project2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/project3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/project3.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
