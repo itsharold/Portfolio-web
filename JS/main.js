@@ -63,4 +63,28 @@ $(document).ready(function(){
 
 /*!slider*/
 
+/*counter*/
+$(document).ready(function(){
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+/*!counter*/
 
+
+/*gif on hover*/
+$(document).ready(function()
+{
+    $("#vision-slideshow").hover(
+        function()
+        {
+            $(this).attr("src", "../Images/slideshow.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "../Images/slideshow.jpg");
+        }                         
+    );                  
+});
+/*!gif on hover*/

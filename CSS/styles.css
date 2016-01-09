@@ -349,11 +349,11 @@ main{
 
 /* </Title and category effect>*/
 
-#project3{ width:30%; }
-#project4{ width:70%; }
+#project3, #project6{ width:30%; }
+#project4, #project5{ width:70%; }
 
 #project1 .inner-wrapper{ 
-	background-image: url(../Images/Mirado_mockup-web.jpg);
+	background-image: url(../Images/neatbox_mockup-web.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -365,12 +365,24 @@ main{
 #project3 .inner-wrapper{ 
 	background-color: #E4DBD4;
 }
+#project6 .inner-wrapper{ 
+	background-color: #E4DBD4;
+}
 #project3 p{
+	font-size: 1.15rem;
+	line-height: 1.8rem;
+}
+#project6 p{
 	font-size: 1.15rem;
 	line-height: 1.8rem;
 }
 #project4 .inner-wrapper{ 
 	background-image: url(../Images/StillHumans_mockup-web.jpg);
+	background-size: cover;
+	background-position: center; 
+}
+#project5 .inner-wrapper{ 
+	background-image: url(../Images/mash_mockup-web.jpg);
 	background-size: cover;
 	background-position: center; 
 }

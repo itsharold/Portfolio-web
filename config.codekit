@@ -85,17 +85,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/CS_mockup-web.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 336109,
-		"inputAbbreviatedPath": "\/Images\/CS_mockup-web.jpg",
-		"outputAbbreviatedPath": "\/Images\/CS_mockup-web.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Images\/h3-web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -111,9 +100,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 170777,
+		"initialSize": 181755,
 		"inputAbbreviatedPath": "\/Images\/Identity_mockup-web.jpg",
 		"outputAbbreviatedPath": "\/Images\/Identity_mockup-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/mash_mockup-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Images\/mash_mockup-web.jpg",
+		"outputAbbreviatedPath": "\/Images\/mash_mockup-web.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -129,13 +129,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/p2_1.jpg": {
+	"\/Images\/neatbox_mockup-web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85489,
-		"inputAbbreviatedPath": "\/Images\/p2_1.jpg",
-		"outputAbbreviatedPath": "\/Images\/p2_1.jpg",
+		"initialSize": 187482,
+		"inputAbbreviatedPath": "\/Images\/neatbox_mockup-web.jpg",
+		"outputAbbreviatedPath": "\/Images\/neatbox_mockup-web.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -151,6 +151,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/shades.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158658,
+		"inputAbbreviatedPath": "\/Images\/shades.jpg",
+		"outputAbbreviatedPath": "\/Images\/shades.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/Sketches.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -162,6 +173,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/slideshow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198441,
+		"inputAbbreviatedPath": "\/Images\/slideshow.jpg",
+		"outputAbbreviatedPath": "\/Images\/slideshow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/StillHumans_devices_mockup.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -169,28 +191,6 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/Images\/StillHumans_devices_mockup.png",
 		"outputAbbreviatedPath": "\/Images\/StillHumans_devices_mockup.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Images\/StillHumans_mockup-web.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 188704,
-		"inputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.jpg",
-		"outputAbbreviatedPath": "\/Images\/StillHumans_mockup-web.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Images\/thequotes_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.79182e+07,
-		"inputAbbreviatedPath": "\/Images\/thequotes_2.jpg",
-		"outputAbbreviatedPath": "\/Images\/thequotes_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -259,6 +259,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/JS\/jquery.counterup.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/JS\/jquery.counterup.min.js",
+		"outputAbbreviatedPath": "\/JS\/min\/jquery.counterup.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/JS\/jquery.scrollme.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -302,6 +313,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/project1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/project1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/project2.html": {
 		"fileType": 8192,

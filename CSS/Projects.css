@@ -110,20 +110,44 @@ main{
 	margin-bottom: 60px;
 }
 .full-wrapper{
-	background: rgba(228,219,212,0);
-	background: -moz-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,219,212,0)), color-stop(45%, rgba(228,219,212,0)), color-stop(100%, rgba(228,219,212,1)));
-	background: -webkit-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
-	background: -o-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
-	background: -ms-linear-gradient(top, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
-	background: linear-gradient(to bottom, rgba(228,219,212,0) 0%, rgba(228,219,212,0) 45%, rgba(228,219,212,1) 100%);
 	width: 100vw;
 	height: auto;
 	float: left;
 	clear: both;
 	margin: 0;
 	margin-bottom: 60px;
+	position: relative;
 }
+
+#gradient1{
+	margin-bottom: 0;
+	background: linear-gradient(0deg, #93c9c7, #ffffff);
+	background-size: 400% 400%;
+
+	/*
+	-webkit-animation: fading 29s ease infinite;
+	-moz-animation: fading 29s ease infinite;
+	animation: fading 29s ease infinite;
+	*/
+}
+/*animation frames
+@-webkit-keyframes fading {
+    	0%{background-position:50% 0%}
+    	50%{background-position:50% 100%}
+    	100%{background-position:50% 0%}
+	}
+	@-moz-keyframes fading {
+    	0%{background-position:50% 0%}
+    	50%{background-position:50% 100%}
+    	100%{background-position:50% 0%}
+	}
+	@keyframes fading { 
+    	0%{background-position:50% 0%}
+    	50%{background-position:50% 100%}
+    	100%{background-position:50% 0%}
+	}
+!animation frames*/
+
 .full-wrapper .p-content{
 	margin-bottom: 0;
 }
@@ -161,6 +185,13 @@ main{
 	position: absolute;
 	right: -20%;
 }
+.o-full{
+	width: 100vw;
+	z-index: -10000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .image-l{
 	width: 600px;
 }
@@ -174,6 +205,7 @@ main{
 }
 .full-img{
 	width: 100%;
+	margin-top: 24px;
 }
 
 .img-centered{
@@ -181,6 +213,7 @@ main{
 	background-position: center;
 	background-repeat: no-repeat;
 	display: block;
+	margin-top: 24px;
 }
 #colorscheme{
 	background-image: url(../Images/ColorScheme.png);
@@ -189,4 +222,45 @@ main{
 #typography{
 	background-image: url(../Images/typo.png);
 	height: 167px;
+}
+
+.square{
+	height: 200px;
+	width: 230px;
+	background-color: #B8C4A5;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	position: relative;
+}
+.square span{
+	color: #404040;
+	font-size: 3.5em;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+}
+.square p{
+	color: white;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin: 0;
+}
+.squares.left{
+	width: 100%;
+	padding-right: 0;
+}
+#numbers .center > p{
+	background-color: white;
+}
+.text-wrapper{
+	position: absolute;
+	top: 50%;
+	width: 200px;
+	transform: translateY(-50%);
+	margin: 0 auto;
+}
+.sources{
+	font-size: 0.7em;
 }
