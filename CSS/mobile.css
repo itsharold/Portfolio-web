@@ -158,13 +158,6 @@
 	.pen{
 		display: none;
 	}
-	#about-hero h2{
-		font-size: 2.5em;
-		line-height: 0.8em;
-		padding-left: 20px;
-		box-sizing: border-box;
-		margin-top: -160px;
-	}
 	.img-centered{
 		background-size: contain;
 	}
@@ -177,7 +170,28 @@
 	.animateme{
 		display: none;
 	}
+	.full-img.animateme{
+		display: block;
+	}
 	#linegraph{
 		display: none;
 	}
+
+	ol{
+		padding-left: 0;
+	}
+
+	.square{
+		width: 100%;
+		height: 150px;
+		float: none;
+	}
+	.square span{
+		font-size: 2.3rem;
+	}
+	.square p{
+		margin-top: 10px;
+		font-size: 1rem;
+	}
+
 }

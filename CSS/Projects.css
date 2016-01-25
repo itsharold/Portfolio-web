@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon-arrows';
-	src:url('../fonts/icomoon-arrows.eot?8pt58x');
-	src:url('../fonts/icomoon-arrows.eot?8pt58x#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon-arrows.ttf?8pt58x') format('truetype'),
-		url('../fonts/icomoon-arrows.woff?8pt58x') format('woff'),
-		url('../fonts/icomoon-arrows.svg?8pt58x#icomoon-arrows') format('svg');
+	src:url('../Fonts/icomoon-arrows.eot?8pt58x');
+	src:url('../Fonts/icomoon-arrows.eot?8pt58x#iefix') format('embedded-opentype'),
+		url('../Fonts/icomoon-arrows.ttf?8pt58x') format('truetype'),
+		url('../Fonts/icomoon-arrows.woff?8pt58x') format('woff'),
+		url('../Fonts/icomoon-arrows.svg?8pt58x#icomoon-arrows') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -84,6 +84,9 @@ main{
 .p-content.last{
 	margin-bottom: 0;
 }
+.full-wrapper.last{
+	margin-bottom: 0;
+}
 
 /*Content in half*/
 .p-content.half{
@@ -101,7 +104,7 @@ main{
 	list-style: none;
 }
 .screenshots-wrapper{
-	background-color: #E4DBD4;
+	background-color: #E9E9E9;
 	width: 100vw;
 	height: auto;
 	float: left;
@@ -130,6 +133,7 @@ main{
 	animation: fading 29s ease infinite;
 	*/
 }
+
 /*animation frames
 @-webkit-keyframes fading {
     	0%{background-position:50% 0%}
@@ -224,22 +228,30 @@ main{
 	height: 167px;
 }
 
+.squares{
+	width: 100%;
+	height: 100%;
+}
 .square{
+	box-sizing: border-box;
 	height: 200px;
-	width: 230px;
-	background-color: #B8C4A5;
+	width: 33.3%;
 	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	padding: 0 15px;
-	position: relative;
+	padding: 10px;
+	display: inline-block;
+}
+.square .text-wrapper{
+	width:100%;
+	height:100%;
+	padding: 20px;
+	box-sizing:border-box;
+	background-color: #b8c4a5;
 }
 .square span{
-	color: #404040;
-	font-size: 3.5em;
+	color: #4d4d4d;
+	font-size: 3.8rem;
 	font-weight: 700;
 	margin: 0;
-	text-align: center;
 }
 .square p{
 	color: white;
@@ -247,20 +259,66 @@ main{
 	line-height: 1.2em;
 	margin: 0;
 }
-.squares.left{
-	width: 100%;
-	padding-right: 0;
-}
+
 #numbers .center > p{
 	background-color: white;
 }
-.text-wrapper{
-	position: absolute;
-	top: 50%;
-	width: 200px;
-	transform: translateY(-50%);
-	margin: 0 auto;
-}
 .sources{
 	font-size: 0.7em;
+	clear: both;
+}
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+}
+
+ol ol {
+    margin: 0 0 0 1em; /* Add some left margin for inner lists */
+}
+.rectangle-list li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #666666;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list li:hover{
+    background: #eee;
+}   
+
+.rectangle-list li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #92c8c6;
+    color: white;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle-list li:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list li:hover:after{
+    left: -.5em;
+    border-left-color: #92c8c6;             
 }
