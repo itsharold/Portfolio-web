@@ -88,3 +88,19 @@ $(document).ready(function()
     );                  
 });
 /*!gif on hover*/
+
+$(document).ready(function(){
+    var $window = $(window),
+    $section = $('section.center');
+    $section2 = $('section.full-img');
+
+    $(window).on('resize', function () {
+        if ($window.width() < 767) {
+       $section.removeClass('scrollme');
+       $section2.removeClass('animateme');
+    }else{
+        $section.addClass('scrollme');
+        $section2.addClass('animateme')};
+    });
+});
+
