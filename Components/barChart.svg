@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 1334" style="enable-background:new 0 0 2000 1334;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.st2{opacity:0.3;mask:url(#Grid_1_);}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:url(#SVGID_2_);stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#FE3824;}
+	.st6{fill:#E22B23;}
+	.st7{fill:#FE83D5;}
+	.st8{fill:#E276C4;}
+	.st9{fill:none;}
+	.st10{fill:#808080;}
+	.st11{font-family:'Roboto-Regular';}
+	.st12{font-size:36px;}
+</style>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="192" width="2000" height="1027">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0" y="192" width="2000" height="1027" id="Grid_1_">
+	<g class="st0">
+		
+			<radialGradient id="SVGID_1_" cx="995.5" cy="667" r="1387.8579" gradientTransform="matrix(0.9955 0 0 1 8.9597 0)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</radialGradient>
+		<rect class="st1" width="2000" height="1334"/>
+	</g>
+</mask>
+<g id="Grid" class="st2">
+	<line class="st3" x1="0" y1="192.5" x2="2000" y2="192.5"/>
+	<line class="st3" x1="0" y1="246.5" x2="2000" y2="246.5"/>
+	<line class="st3" x1="0" y1="300.5" x2="2000" y2="300.5"/>
+	<line class="st3" x1="0" y1="354.5" x2="2000" y2="354.5"/>
+	<line class="st3" x1="0" y1="408.5" x2="2000" y2="408.5"/>
+	<line class="st3" x1="0" y1="462.5" x2="2000" y2="462.5"/>
+	<line class="st3" x1="0" y1="516.5" x2="2000" y2="516.5"/>
+	<line class="st3" x1="0" y1="570.5" x2="2000" y2="570.5"/>
+	<radialGradient id="SVGID_2_" cx="1000" cy="624.5" r="707.1068" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<line class="st4" x1="0" y1="624.5" x2="2000" y2="624.5"/>
+	<line class="st3" x1="0" y1="678.5" x2="2000" y2="678.5"/>
+	<line class="st3" x1="0" y1="732.5" x2="2000" y2="732.5"/>
+	<line class="st3" x1="0" y1="786.5" x2="2000" y2="786.5"/>
+	<line class="st3" x1="0" y1="840.5" x2="2000" y2="840.5"/>
+	<line class="st3" x1="0" y1="894.5" x2="2000" y2="894.5"/>
+	<line class="st3" x1="0" y1="948.5" x2="2000" y2="948.5"/>
+	<line class="st3" x1="0" y1="1002.5" x2="2000" y2="1002.5"/>
+	<line class="st3" x1="0" y1="1056.5" x2="2000" y2="1056.5"/>
+	<line class="st3" x1="0" y1="1110.5" x2="2000" y2="1110.5"/>
+	<line class="st3" x1="0" y1="1164.5" x2="2000" y2="1164.5"/>
+	<line class="st3" x1="0" y1="1218.5" x2="2000" y2="1218.5"/>
+</g>
+<g id="bar1">
+	<rect x="445.3" y="1163.5" class="st5" width="35" height="56"/>
+	<rect x="480.3" y="1163.5" class="st6" width="35" height="56"/>
+</g>
+<g id="bar2">
+	<rect x="562.7" y="1109.7" class="st7" width="35" height="109.8"/>
+	<rect x="597.7" y="1109.7" class="st8" width="35" height="109.8"/>
+</g>
+<g id="bar3">
+	<rect x="680.2" y="839.2" class="st5" width="35" height="380.3"/>
+	<rect x="715.2" y="839.2" class="st6" width="35" height="380.3"/>
+</g>
+<g id="bar4">
+	<rect x="797.6" y="893.5" class="st7" width="35" height="326"/>
+	<rect x="832.6" y="893.5" class="st8" width="35" height="326"/>
+</g>
+<g id="bar5">
+	<rect x="915.1" y="677.5" class="st5" width="35" height="542"/>
+	<rect x="950.1" y="677.5" class="st6" width="35" height="542"/>
+</g>
+<g id="bar6">
+	<rect x="1032.5" y="731.5" class="st7" width="35" height="488"/>
+	<rect x="1067.5" y="731.5" class="st8" width="35" height="488"/>
+</g>
+<g id="bar7">
+	<rect x="1149.9" y="244.5" class="st5" width="35" height="975"/>
+	<rect x="1184.9" y="244.5" class="st6" width="35" height="975"/>
+</g>
+<g id="bar8">
+	<rect x="1267.4" y="191.5" class="st7" width="35" height="1028"/>
+	<rect x="1302.4" y="191.5" class="st8" width="35" height="1028"/>
+</g>
+<g id="bar9">
+	<rect x="1384.8" y="622.6" class="st5" width="35" height="596.9"/>
+	<rect x="1419.8" y="622.6" class="st6" width="35" height="596.9"/>
+</g>
+<g id="bar10">
+	<rect x="1502.3" y="838.5" class="st7" width="35" height="381"/>
+	<rect x="1537.3" y="838.5" class="st8" width="35" height="381"/>
+</g>
+<g id="Legend">
+	<rect x="447" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 470.8926 1279)" class="st10 st11 st12">1</text>
+	<rect x="563.7" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 587.6148 1279)" class="st10 st11 st12">2</text>
+	<rect x="681.2" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 705.0593 1279)" class="st10 st11 st12">3</text>
+	<rect x="798.6" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 822.5037 1279)" class="st10 st11 st12">4</text>
+	<rect x="916.1" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 939.9481 1279)" class="st10 st11 st12">5</text>
+	<rect x="1033.5" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 1057.3926 1279)" class="st10 st11 st12">6</text>
+	<rect x="1150.9" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 1174.837 1279)" class="st10 st11 st12">7</text>
+	<rect x="1268.4" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 1292.2815 1279)" class="st10 st11 st12">8</text>
+	<rect x="1385.8" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 1409.7258 1279)" class="st10 st11 st12">9</text>
+	<rect x="1503.3" y="1252" class="st9" width="68" height="60"/>
+	<text transform="matrix(1 0 0 1 1517.063 1279)" class="st10 st11 st12">10</text>
+</g>
+</svg>

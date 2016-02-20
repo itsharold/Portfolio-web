@@ -11,11 +11,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Contact.html": {
+	"\/alarm.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Contact.html",
+		"inputAbbreviatedPath": "\/alarm.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -56,11 +65,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/CSS\/Projects.css": {
+	"\/CSS\/projects.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/CSS\/Projects.css",
+		"inputAbbreviatedPath": "\/CSS\/projects.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -73,6 +82,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 757,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/alarm_mockup.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159982,
+		"inputAbbreviatedPath": "\/Images\/alarm_mockup.png",
+		"outputAbbreviatedPath": "\/Images\/alarm_mockup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/alarmclock_mockup-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398244,
+		"inputAbbreviatedPath": "\/Images\/alarmclock_mockup-web.jpg",
+		"outputAbbreviatedPath": "\/Images\/alarmclock_mockup-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/Images\/box-mockup.png": {
 		"fileType": 32768,
@@ -173,6 +215,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/Neatbox_mockup1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 381761,
+		"inputAbbreviatedPath": "\/Images\/Neatbox_mockup1.jpg",
+		"outputAbbreviatedPath": "\/Images\/Neatbox_mockup1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/Neatbox_mockup2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415878,
+		"inputAbbreviatedPath": "\/Images\/Neatbox_mockup2.jpg",
+		"outputAbbreviatedPath": "\/Images\/Neatbox_mockup2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/Neatbox_mockup3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -180,6 +244,17 @@
 		"initialSize": 396841,
 		"inputAbbreviatedPath": "\/Images\/Neatbox_mockup3.jpg",
 		"outputAbbreviatedPath": "\/Images\/Neatbox_mockup3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/personas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66195,
+		"inputAbbreviatedPath": "\/Images\/personas.png",
+		"outputAbbreviatedPath": "\/Images\/personas.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -369,29 +444,29 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/project1.html": {
+	"\/neatbox.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/project1.html",
+		"inputAbbreviatedPath": "\/neatbox.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/project2.html": {
+	"\/personalid.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/project2.html",
+		"inputAbbreviatedPath": "\/personalid.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/project3.html": {
+	"\/stillhumans.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/project3.html",
+		"inputAbbreviatedPath": "\/stillhumans.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -65,7 +65,8 @@
 
 	.p-content{
 		padding: 0 20px;
-		margin-top: 20px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	.p-hero{
 		width: 100%;
@@ -81,7 +82,7 @@
 		line-height: 0.8em;
 		padding-left: 20px;
 		box-sizing: border-box;
-		margin-top: -50px;
+		margin-top: -20px;
 	}
 	.p-content .left{
 		width: 100%;
@@ -155,9 +156,6 @@
 	.c-content{
 		padding: 0 20px;
 	}
-	.pen{
-		display: none;
-	}
 	.img-centered{
 		background-size: contain;
 	}
@@ -166,9 +164,6 @@
 	}
 	#typography{
 		height: 75px;
-	}
-	.animateme{
-		display: none;
 	}
 	.full-img.animateme{
 		display: block;
@@ -193,5 +188,64 @@
 		margin-top: 10px;
 		font-size: 1rem;
 	}
+
+	.center .cbp_tmtimeline{
+		margin-top: 30px;
+	}
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span:first-child{
+		line-height: 1em;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child{
+		font-size: 1.5em;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 300;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #feb4e6;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #ffb8ba;
+	}
+
+	.cbp_tmtimeline > li .icon {
+		position: relative;
+		float: right;
+		left: auto;
+		width: 20px;
+		height: 20px;
+		margin: -55px 5px 0 0px;
+		box-shadow: 0 0 0 4px #ffe6f6;
+	}
+
+	.full-wrapper{
+		margin-bottom: 30px;
+	}	
 
 }
