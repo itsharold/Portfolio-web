@@ -445,46 +445,14 @@ ol ol {
 
 .bar{
 	opacity: 0;
-	animation: bar-up 2s ease-out;
-	-webkit-animation: bar-up 2s ease-out;
-	-moz-animation: bar-up 2s ease-out;
-	transform-origin: left bottom;
 }
-.bar.in-view{
+.in-view{
 	opacity: 1;
 	animation: bar-up 2s ease-out;
 	-webkit-animation: bar-up 2s ease-out;
 	-moz-animation: bar-up 2s ease-out;
 	transform-origin: left bottom;
 }
-#bar2{
-	animation-delay: 1000ms;
-}
-#bar3{
-	animation-delay: 2000ms;
-}
-#bar4{
-	animation-delay: 3000ms;
-}
-#bar5{
-	animation-delay: 4000ms;
-}
-#bar6{
-	animation-delay: 5000ms;
-}
-#bar7{
-	animation-delay: 6000ms;
-}
-#bar8{
-	animation-delay: 7000ms;
-}
-#bar9{
-	animation-delay: 8000ms;
-}
-#bar10{
-	animation-delay: 9000ms;
-}
-
 
 @keyframes bar-up{
 		0%{
